@@ -1,8 +1,8 @@
 /****************************************************
 * Objetivo: Calcular a tabuada de um determinado número.
-* Data: 06/09/23
+* Data: 13/09/23
 * Autor: Gustavo Campos
-* Versão: 1.0
+* Versão: 2.0
 *****************************************************/
 const gerarTabuada=function(valorTabuada,valorInicial,valorFinal){
     let tabuada=valorTabuada
@@ -31,4 +31,5 @@ const gerarTabuada=function(valorTabuada,valorInicial,valorFinal){
     }
     return status
 }
-console.log(gerarTabuada('4','2','40'))
+//console.log(gerarTabuada('4','2','40'))
+module.exports={gerarTabuada}
